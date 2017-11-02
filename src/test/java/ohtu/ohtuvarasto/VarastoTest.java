@@ -147,7 +147,7 @@ public class VarastoTest {
     @Test
     public void uusiVarastoIsompiSaldoKuinTilavuus(){
         Varasto vara = new Varasto(10, 12);
-        assertEquals(10, vara.getSaldo(), vertailuTarkkuus);
+        assertEquals(12, vara.getSaldo(), vertailuTarkkuus);
         assertEquals(10, vara.getTilavuus(), vertailuTarkkuus);
     }
 }
