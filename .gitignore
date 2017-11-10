@@ -3,3 +3,4 @@
 gradle.properties
 /.nb-gradle/
 /RiippuvuuksienInjektointi1/.nb-gradle/
+/ohtuvarasto/.nb-gradle/
