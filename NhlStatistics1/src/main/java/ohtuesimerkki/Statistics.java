@@ -8,12 +8,12 @@ import java.util.List;
 public class Statistics {
 
     private List<Player> players;
-    private Reader r;
+    private Reader read;
 
 
     public Statistics(Reader reader) {
-        r= reader;
-        players = r.getPlayers();  
+        read= reader;
+        players = read.getPlayers();  
     }
 
     public Player search(String name) {
